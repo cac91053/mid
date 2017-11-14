@@ -1,0 +1,16 @@
+package com.fju.mid;
+
+import java.util.Scanner;
+
+public class Numbers {
+
+	public static void main(String[] args) {
+		System.out.println("請使用者輸入一個數字，印出1到此整數的數字");
+		Scanner scanner = new Scanner(System.in);
+		String line = scanner.nextLine();
+		int c = Integer.parseInt(line);
+		for(int i = 1;i <= c; i++)
+	
+	}
+
+}
